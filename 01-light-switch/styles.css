@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+button.light-mode {
+  background-color: #444;
+  color: white;
+}
+
+button.dark-mode {
+  background-color: #ddd;
+  color: black;
+}
