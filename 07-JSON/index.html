@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>LocalStorager</h1>
+    <div>
+        <h2>Add Property to LocalStorage</h2>
+        <input type="text" id="key" placeholder="Key">
+        <input type="text" id="value" placeholder="Value">
+        <button onclick="addToLocalStorage()">Add</button>
+        <button onclick="clearLocalStorage()">Clear</button>
+    </div>
+    <div>
+        <h2>Current LocalStorage (<span id="count">0</span>)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Key</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody id="storageTable">
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+
+
+
+
+</body>
+
+</html>
